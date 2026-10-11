@@ -1,0 +1,6 @@
+*.vhdx
+*.exe
+Session.vim
+\\
+*.db
+.env

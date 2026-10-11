@@ -1,0 +1,6 @@
+[submodule ".config/nvim"]
+	path = .config/nvim
+	url = https://github.com/13janderson/nvim.git
+[submodule ".local/bin/scripts/sh_tools"]
+	path = .local/bin/scripts/sh_tools
+	url = https://github.com/13janderson/sh_tools
