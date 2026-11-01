@@ -1,0 +1,24 @@
+# Rosé Pine (main) for Newsboat
+# Newsboat only supports the xterm-256 palette, so these are nearest-colour
+# approximations:
+#   base      #191724 -> color234   surface  #1f1d2e -> color235
+#   overlay   #26233a -> color236   highlight #403d52 -> color238
+#   muted     #6e6a86 -> color60    subtle   #908caa -> color103
+#   text      #e0def4 -> color189   love     #eb6f92 -> color168
+#   gold      #f6c177 -> color216   rose     #ebbcba -> color181
+#   pine      #31748f -> color66    foam     #9ccfd8 -> color152
+#   iris      #c4a7e7 -> color182
+
+color background           color189 color234
+color listnormal           color189 color234
+color listfocus            color189 color238 bold
+color listnormal_unread    color152 color234 bold
+color listfocus_unread     color216 color238 bold
+color title                color182 color235 bold
+color info                 color103 color235
+color hint-key             color152 color235 bold
+color hint-keys-delimiter color60  color235
+color hint-separator       color60  color235
+color hint-description     color103 color235
+color article              color189 color234
+color end-of-text-marker   color60  color234

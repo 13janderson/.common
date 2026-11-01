@@ -1,0 +1,55 @@
+# Newsboat configuration
+# Docs: https://newsboat.org/releases/2.45/docs/newsboat.html
+
+# --- FreshRSS sync (Google Reader API) ---
+# Enable API access in FreshRSS: Settings > Authentication
+# Set an API password in FreshRSS: Profile
+urls-source "freshrss"
+freshrss-url "https://rss.tailbf51bb.ts.net/api/greader.php"
+freshrss-login "janderson"
+
+# FreshRSS API password (Profile > "API password")
+freshrss-password "YQzZyPm4fvAZ7UC"
+
+# Articles requested per feed (default 20)
+freshrss-min-items 100
+
+# Map the "s" flag to FreshRSS favourites and keep the Starred Items feed
+freshrss-flag-star "s"
+freshrss-show-special-feeds "yes"
+
+# --- Refresh behaviour ---
+auto-reload yes
+reload-time 60
+
+# --- Key bindings ---
+# Keep native j/k (next/prev feed in the article list) and J/K (next/prev
+# entry). Menus move with Ctrl+np because terminals deliver Ctrl+J as Enter,
+# so <C-j> can never work. Note this replaces next/prev-unread-feed in the
+# article list. Arrow keys are unaffected.
+bind <C-n> feedlist,articlelist,searchresultslist,urlview,help,tagselection,filterselection,filebrowser,dirbrowser,dialogs down
+bind <C-p> feedlist,articlelist,searchresultslist,urlview,help,tagselection,filterselection,filebrowser,dirbrowser,dialogs up
+
+# Article view scrolls with vim-style j/k (line by line)
+bind j article down
+bind k article up
+
+# Half-page scrolling, as in nvim/opencode terminal
+bind <C-d> everywhere halfpagedown
+bind <C-u> everywhere halfpageup
+
+# Free the "g" prefix from sort/rev-sort and add vim-style g motions
+unbind-key g
+bind S feedlist,articlelist,searchresultslist sort
+bind gg everywhere home
+bind G everywhere end
+
+# Follow links like nvim's gf/gx
+bind gf articlelist,article,searchresultslist open-in-browser-and-mark-read
+bind gx feedlist,articlelist,article,searchresultslist,urlview open-in-browser
+
+# Keep source view reachable after <C-u> is repurposed
+bind V article toggle-source-view
+
+# --- Theme ---
+include "~/.config/newsboat/colors"

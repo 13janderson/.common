@@ -1,0 +1,3 @@
+# Feeds and categories come from FreshRSS via urls-source "freshrss".
+# Add local query feeds here if desired, e.g.
+# "unread" query:unread = "unread"
