@@ -28,7 +28,8 @@ have answered. Additional context from me: $ARGUMENTS
 ### 2. Ask questions before writing anything
 
 Ask a small batch of questions at a time (roughly 2-4 related questions), wait
-for the answers, then ask the next batch. Adapt follow-ups to what I say.
+for the answers, then ask the next batch. Adapt follow-ups to what I say. 
+For all questions, you must use the question skill
 
 Cover, in roughly this order:
 
