@@ -50,7 +50,7 @@ Cover, in roughly this order:
    confirm there is none.
 7. **Reminders and weekends**: anything to remember for the week, and any
    planned weekend events.
-8. **Do not ask about common**: do not ask about things that appear in every note as per the template `./templates/weekly.md` - that includes cannon events and `[[time_bucketing]]`.
+8. **Do not ask about common**: do not ask about things that appear in every note as per the template `./templates/weekly.md` - that includes `[[time_bucketing]]`.
 
 Reflect my own words and first-person voice back; do not invent events,
 feelings, or progress.
@@ -65,9 +65,8 @@ Fill the existing template. The structure must not change:
   `Career:`, `Extra:`, `Thoughts:` in that order.
 - Keep `# Weekly aims:` with the `Revisit [[time_bucketing]]` checkbox, then
   `Goal:` with nested sub-bullets, then `Stretch:` with nested sub-bullets.
-- Keep `# Reminders:` and `# Cannon events:`.
+- Keep `# Reminders:`.
 - Do not add, remove, rename, or reorder sections. Do not add new headings.
-- Copy the entire `# Cannon events:` block verbatim from the template.
 - Leave a section blank if I had nothing to say for it rather than inventing
   content.
 
