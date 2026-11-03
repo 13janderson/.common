@@ -136,10 +136,12 @@ source "$HOME/.config.sh"
 source "$HOME/.shared.sh"
 
 # opencode
-export PATH=/home/janderson/.opencode/bin:$PATH
+export PATH="$HOME/.opencode/bin:$PATH"
 
 # . "$HOME/.local/share/../bin/env"
 
 # try - https://github.com/tobi/try
-eval "$(try init)"
 export TRY_PATH=~/syncthing/tries
+if command -v try >/dev/null 2>&1; then
+  eval "$(try init)"
+fi
