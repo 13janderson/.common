@@ -4,3 +4,4 @@ Session.vim
 \\
 *.db
 .env
+__scratch__
