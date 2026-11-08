@@ -5,3 +5,4 @@ Session.vim
 *.db
 .env
 __scratch__
+scratch.md
