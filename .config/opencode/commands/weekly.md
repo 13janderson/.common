@@ -42,8 +42,7 @@ Cover, in roughly this order:
    goal is marked complete then take this as concrete evidence of that completion.
    In which case all you really need to ask me is if I have any thoughts around
    that goal.
-2. **Topics raised in last week's Thoughts** anything unresolved, a decision, a worry, or a plan. Do not ask generic questions
-   that ignore last week's content.
+2. **Topics raised in last week's Thoughts** anything unresolved, a decision, a worry, or a plan. Do not ask generic questions that ignore last week's content. In general I want you to help me reflect on my thoughts from last week and not let me forget about things going into this week.
 3. **This week's goal**: what should the goal be for the upcoming week? Push
    for a concrete, measurable goal and 1-3 sub-steps. Ask what "done" looks
    like.
